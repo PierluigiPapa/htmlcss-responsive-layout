@@ -8,6 +8,8 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+/* HEADER */
+
 header {
     display: flex;
     align-items: center;
@@ -50,6 +52,65 @@ a {
     border-radius: 70px;
 }
 
+/* // HEADER // */
+
+#container-section-1{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards {
+    background-color:#b5ddff ;
+    border-radius: 20px;
+
+    width: calc((100%/3) *2 );
+    display: flex;
+    height: 300px;
+}
+
+.big-card {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.big-card figure img {
+    width: 30%;
+    max-width: 100%;
+    margin-top: -125px;
+    margin-left: 400px;
+}
+
+.big-card .text {
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text h3 {
+    font-size: 25px;
+    color: #0084FD;
+}
+
+.text p {
+    line-height: 160%;
+    color: #455460;
+    margin-top: 20px;
+
+    font-weight: bold;
+}
+
 /* VERSION TABLET */
 
 @media screen and (max-width: 780px) {
@@ -64,3 +125,14 @@ a {
 }
 
 /* VERSION MOBILE */
+
+@media screen and (max-width: 480px) {
+    header nav figure {
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+
+    header nav ul {
+        display: none;
+    }
+}
