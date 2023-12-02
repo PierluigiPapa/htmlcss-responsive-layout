@@ -8,7 +8,7 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-/* HEADER */
+/* SECTION HEADER */
 
 header {
     display: flex;
@@ -42,17 +42,14 @@ a {
     color: white;
 }
 
-.btn {
-    padding: 7px;
-}
-
 .btn-white {
     background-color: white;
     color: black;
     border-radius: 70px;
+    padding: 7px;
 }
 
-/* // HEADER // */
+/* // SECTION HEADER // */
 
 #container-section-1{
     margin-top: 50px;
@@ -60,40 +57,42 @@ a {
     display: flex;
 }
 
+.flex {
+    display: flex;
+}
+
 .row {
     width: 80%;
     margin: auto;
 
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .cards {
-    background-color:#b5ddff ;
+    background-color:#b5ddff;
     border-radius: 20px;
 
-    width: calc((100%/3) *2 );
-    display: flex;
-    height: 300px;
+    width: calc((100%/3) *2);
+    height: 280px;
 }
 
 .big-card {
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .big-card figure img {
     width: 30%;
     max-width: 100%;
-    margin-top: -125px;
+    margin-top: -225px;
     margin-left: 400px;
 }
 
 .big-card .text {
     width: 50%;
     
-    display: flex;
+    
     flex-direction: column;
     justify-content: space-around;
 }
@@ -111,6 +110,41 @@ a {
     font-weight: bold;
 }
 
+.btn-apple {
+   background-color: #0084FD;
+   color: white;
+
+   width: 160px;
+   font-size: 19px;
+   border-radius: 70px;
+
+   text-align: center;
+   margin-top: 30px;
+}
+
+.little-card{
+    width: calc((100% / 3) - 20px);
+    background-color:#b5ddff;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    border-radius: 30px;
+    height: 280px;
+    margin-bottom: 20px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.icons {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
 /* VERSION TABLET */
 
 @media screen and (max-width: 780px) {
@@ -121,6 +155,10 @@ a {
 
     header nav ul {
         display: none;
+    }
+
+    #container-section-1 {
+        width: 100%;
     }
 }
 
