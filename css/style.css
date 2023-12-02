@@ -51,6 +51,8 @@ a {
 
 /* // SECTION HEADER // */
 
+/* SECTION DEMO */
+
 #container-section-1{
     margin-top: 50px;
     width: 100%;
@@ -145,11 +147,14 @@ a {
     margin-top: 20px;
 }
 
+/* // SECTION DEMO // */
+
 /* VERSION TABLET */
 
 @media screen and (max-width: 768px) {
 
-    /* HEADER */
+    /* SECTION HEADER */
+
     header nav figure {
         margin-left: 25px;
         margin-top: 5px;
@@ -159,7 +164,9 @@ a {
         display: none;
     }
 
-    /* HEADER */
+    /* // SECTION HEADER // */
+
+    /* SECTION DEMO */
 
     #container-section-1 {
         width: 100%;
@@ -181,7 +188,7 @@ a {
         margin-left: 5px;
         margin-bottom: -270px;
     }
-     
+
     .icons {
         margin-top: -130px;
         font-size: 40px;
@@ -203,13 +210,30 @@ a {
     }
 
     .text-center h3 {
+        font-size: 17px;
+        color: #0084FD;
+        font-weight: bolder;
+
         margin-top: -250px;
     }
+
+    .text-center p {
+        line-height: 150%;
+        font-size: 15px;
+        color: #455460;
+
+        font-weight: bold;
+    }
+
+    /* // SECTION DEMO // */
 }
 
 /* VERSION MOBILE */
 
 @media screen and (max-width: 480px) {
+
+    /* SECTION HEADER */
+
     header nav figure {
         margin-left: 25px;
         margin-top: 5px;
@@ -217,6 +241,15 @@ a {
 
     header nav ul {
         display: none;
+    }
+
+    /* // SECTION HEADER // */
+
+    /* SECTION DEMO */
+
+    #container-section-1 {
+        width: 100%;
+        padding: 40px;
     }
 
     .row {
@@ -228,6 +261,47 @@ a {
         align-items: center;
     }
 
+    .big-card figure img {
+        width: 80%;
+        margin-left: 10px;
+        margin-bottom: -240px;
+    }
+
+    .cards {
+        width: 300px;
+        height: 580px;
+    }
+
+    .little-card {
+        margin-top: 30px;
+        width: 300px;
+        height: 400px;
+    }
+
+    .icons {
+        margin-top: -10px;
+    }
+
+
+    .text-center h3 {
+        font-size: 25px;
+        color: #0084FD;
+        font-weight: bolder;
+        margin-top: 20px;
+    }
+
+    .text-center p {
+        line-height: 150%;
+        font-size: 15px;
+        color: #455460;
+
+        font-weight: bold;
+    }
+
+    /* // SECTION DEMO // */
+
+
+     
 
     
     
