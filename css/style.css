@@ -42,6 +42,10 @@ a {
     color: white;
 }
 
+.nav-right i {
+    display: none;
+}
+
 .btn-white {
     background-color: white;
     color: black;
@@ -149,6 +153,12 @@ a {
 
 /* // SECTION DEMO // */
 
+#container-section-2 {
+    background-color: #9792E4;
+    margin-top: 30px;
+}
+
+
 /* VERSION TABLET */
 
 @media screen and (max-width: 768px) {
@@ -162,6 +172,12 @@ a {
 
     header nav ul {
         display: none;
+    }
+
+    .nav-right i {
+        display: block;
+        width: 30px;
+        font-size: 30px;
     }
 
     /* // SECTION HEADER // */
@@ -299,11 +315,4 @@ a {
     }
 
     /* // SECTION DEMO // */
-
-
-     
-
-    
-    
-
 }
