@@ -287,9 +287,11 @@ h4 {
 
 /* // SECTION TESTIMONIALS //  */
 
+/* SECTION BENEFIT */
+
 #container-section-4 {
-    margin-top: 50px;
-    padding-inline: 10%;
+    margin-top: 40px;
+    padding: 30px;
     background-color: #9792E4;
 }
 
@@ -343,7 +345,116 @@ h4 {
     margin-left: 30px;
 }
 
+/* // SECTION BENEFIT //  */
 
+#container-section-5 {
+    width: 100%;
+    padding: 30px;
+    /* background-color: white; */
+}
+
+.left-section-5 {
+    flex-basis: 40%;
+    margin-left: 350px;
+}
+
+.left-section-5 h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #9792E4;
+}
+
+.left-section-5 p {
+    line-height: 25px;
+}
+
+.right-section-5 img {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    margin-left: 60px;
+    position: absolute;
+    flex-basis: 60%;
+}
+
+.right-section-5 i {
+    position: relative;
+    left: 170px;
+    bottom: -130px;
+}
+
+.right-section-5 h3 {
+    color: #9792E4;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.linkedin1 {
+    background-color: #9792E4;
+    color: white;
+    width: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#container-section-6 {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #9792E4;
+    text-align: center;
+}
+
+#container-section-6 h4 {
+    opacity: 0.3;
+}
+
+#container-section-6 h2 {
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+#container-section-6 h1 {
+    font-size: 70px;
+    margin-top: 30px;
+    color: rgb(231, 184, 96);
+}
+
+#container-section-6 p {
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.get-started {
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-right: 30px;
+    color: #9792E4;
+    margin-bottom: 70px;
+    
+}
+
+footer {
+    background-color: #333333;
+    height: 30vh;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+footer span {
+    color: white;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
 /* VERSION TABLET */
 
 @media screen and (max-width: 768px) {
@@ -566,6 +677,9 @@ h4 {
     
     .card-section-4 {
         background-color: white;
+    
+        height: 350px;
+        width: calc((100% / 2) - 10px);
         
         margin-left: 40px;
         margin-right: 40px;
@@ -573,7 +687,6 @@ h4 {
     
         border-radius: 30px;
     }
-    
     .text-3 h1 {
         font-size: 60px;
         color: #9792E4;
@@ -593,6 +706,8 @@ h4 {
         margin-inline: 10%;
         margin-bottom: 20px;
     }
+
+    
 }
 
 /* VERSION MOBILE */
