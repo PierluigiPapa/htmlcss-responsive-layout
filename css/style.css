@@ -98,7 +98,6 @@ a {
 .big-card .text {
     width: 50%;
 
-
     flex-direction: column;
     justify-content: space-around;
 }
@@ -285,24 +284,13 @@ h4 {
     margin-left: 300px;
 }
 
+
+/* // SECTION TESTIMONIALS //  */
+
 #container-section-4 {
     margin-top: 50px;
+    padding-inline: 10%;
     background-color: #9792E4;
-    height: 70vh;
-}
-
-.flex .card-section-4 {
-    background-color: red;
-
-    width: calc(100%/3);
-
-    justify-content: space-between;
-    flex-direction: column;
-    
-    gap: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 30px;
 }
 
 #container-section-4 .text-2 {
@@ -313,7 +301,48 @@ h4 {
     margin-bottom: 40px;
 }
 
-/* // SECTION TESTIMONIALS //  */
+.card-section-4 {
+    background-color: white;
+
+    width: calc(100% / 3);
+    height: 350px;
+    flex-direction: column;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+
+    border-radius: 30px;
+}
+
+.text-3 h1 {
+    font-size: 80px;
+    color: #9792E4;
+    margin-left: 30px;
+}
+
+.text-3 h2 {
+    font-size: 25px;
+    color: #9792E4;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.text-3 p {
+    color: gray;
+
+    margin-inline: 10%;
+    margin-bottom: 20px;
+}
+
+.btn-more {
+    background-color: #9792E4;
+    color: white;
+
+    border-radius: 10%;
+    margin-left: 30px;
+}
+
 
 /* VERSION TABLET */
 
@@ -410,6 +439,7 @@ h4 {
         width: 500px;
         margin-top: 100px;
         margin-left: -150px;
+        display: block;
     }
 
     .left-section-2 h3 {
@@ -520,7 +550,49 @@ h4 {
     }
 
     /* // SECTION TESTIMONIALS // */
- 
+
+    #container-section-4 {
+        width: 100%;
+        background-color: #9792E4;
+    }
+    
+    #container-section-4 .text-2 {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .card-section-4 {
+        background-color: white;
+        
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+    
+        border-radius: 30px;
+    }
+    
+    .text-3 h1 {
+        font-size: 60px;
+        color: #9792E4;
+        margin-left: 30px;
+    }
+    
+    .text-3 h2 {
+        font-size: 30px;
+        color: #9792E4;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .text-3 p {
+        color: gray;
+    
+        margin-inline: 10%;
+        margin-bottom: 20px;
+    }
 }
 
 /* VERSION MOBILE */
@@ -724,4 +796,3 @@ h4 {
 
     /* // SECTION TESTIMONIALS // */
 }
-
