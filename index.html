@@ -12,351 +12,395 @@
 
     <title>HTMLCSS-RESPONSIVE-LAYOUT</title>
 </head>
+
 <body>
 
     <!-- SECTION HEADER -->
-    <header>
-        <nav class="nav-left">
-            <figure>
-                <img src="./assets/img/logo.png" alt="">
-            </figure>
-        </nav>
+    <header class="mobile-padding">
+        <nav class="container">
 
-        <nav class="nav-right">
-            <ul>
-                <li><a href="#">Planning</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><span class="btn-white">Get Started</span></li>
-            </ul>
-            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="logo">
+            </div>
+
+            <div class="burger-menu">
+                <span><i class="fa-solid fa-bars fa-xl"></i></span>
+            </div>
+
+            <div class="menu">
+                <ul class="list-flex">
+                    <li>Planning</li>
+                    <li>Testimonials</li>
+                    <li>Features</li>
+                    <li>About us</li>
+                    <li>
+                        <span class="small-white-button button"><a href="#">Get Started</a></span>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
+    <!-- // SECTION HEADER //  -->
 
-    <!-- // SECTION HEADER // -->
-    
     <main>
-        <!-- SECTION DEMO -->
-        <section id="container-section-1">
-            <div class="flex row">
-                <div class="flex cards">
-                    <div class="big-card">
-                        <div class="flex text">
-                            <h3>Get a demo application</h3>
-                            
-                            <p>Lorem ipsum dolor sit amet consectetur <br>
-                            adipisicing elit. Ratione nobis, architecto ad <br>
-                            dolore quod, facere totam quas recusandae <br>
-                            blanditiis.</p>
+        <!-- SECTION DEMO  -->
+        <section id="intro" class="mobile-padding">
+            <div class="container">
+                <div class="columns margin-columns">
+                    <div class="col intro-col padding-col">
+                        <div class="card flex-card phone-bottom0">
+                            <div class="col text-col">
+                                <h3>Get a demo application</h3>
 
-                            <span class="btn-apple"><i class="fa-brands fa-apple" style="color: #ffffff;"></i> App Store</span>   
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At exercitationem accusamus, tempore architecto odio praesentium unde quasi.</p>
+                            
+                                <div class="apple-button button button-pad-8-45">
+                                    <a href="#">
+                                        <span><i class="fab fa-apple"></i></span>
+                                        <span>App Store</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col img-col">
+                                <img src="./assets/img/phone.png" alt="phone">
+                            </div>
                         </div>
+                    </div>
 
-                        <figure>
-                            <img src="./assets/img/phone.png" alt="">
-                        </figure>       
+                    <div class="intro-col padding-col">
+                        <div class="nth-intro-col">
+                            <div class="card">
+                                <div class="icon-intro">
+                                    <i class="fa-solid fa-file-code"></i>
+                                </div>
+    
+                                <h3>Clean Code</h3>
+    
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At exercitationem accusamus, tempore architecto odio praesentium unde quasi.</p>                            
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="intro-col padding-col">
+                        <div class="nth-intro-col">
+                            <div class="card">
+                                <div class="icon-intro">
+                                    <i class="fa-solid fa-compass-drafting"></i>
+                                </div>
+    
+                                <h3>Web Design</h3>
+    
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At exercitationem accusamus, tempore architecto odio praesentium unde quasi.</p>                            
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="intro-col padding-col">
+                        <div class="nth-intro-col">
+                            <div class="card">
+                                <div class="icon-intro">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                </div>
+    
+                                <h3>Developement</h3>
+    
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At exercitationem accusamus, tempore architecto odio praesentium unde quasi.</p>                            
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="intro-col padding-col">
+                        <div class="nth-intro-col">
+                            <div class="card">
+                                <div class="icon-intro">
+                                    <i class="fa-solid fa-bullhorn"></i>
+                                </div>
+    
+                                <h3>Branding</h3>
+    
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At exercitationem accusamus, tempore architecto odio praesentium unde quasi.</p>                            
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="flex little-card">
-                    <div class="icons">
-                        <i class="fa-solid fa-file-code fa-2xl" style="color: #0084fd;"></i>
-                    </div>
-                    <div class="text text-center">
-                        <h3>Clean Code</h3>
-                            
-                        <p>Lorem ipsum dolor sit amet consectetur <br>
-                        adipisicing elit. Ratione nobis, architecto <br> ad
-                        dolore quod, facere totam quas <br> recusandae
-                        blanditiis.</p>
-                    </div>
-                </div>
-
-                <div class="flex little-card">
-                    <div class="icons">
-                        <i class="fa-solid fa-compass-drafting fa-2xl" style="color: #0084fd;"></i>
-                    </div>
-                    <div class="text text-center">
-                        <h3>Web Design</h3>
-                            
-                        <p>Lorem ipsum dolor sit amet consectetur <br>
-                        adipisicing elit. Ratione nobis, architecto <br> ad
-                        dolore quod, facere totam quas <br> recusandae
-                        blanditiis.</p>
-
-                    </div>
-                </div>
-
-                <div class="flex little-card">
-                    <div class="icons">
-                        <i class="fa-solid fa-laptop-code fa-2xl" style="color: #0084fd;"></i>
-                    </div>
-                    <div class="text text-center">
-                        <h3>Developement</h3>
-                            
-                        <p>Lorem ipsum dolor sit amet consectetur <br>
-                        adipisicing elit. Ratione nobis, architecto <br> ad
-                        dolore quod, facere totam quas <br> recusandae
-                        blanditiis.</p>
-
-                    </div>
-                </div>
-
-                <div class="flex little-card">
-                    <div class="icons">
-                        <i class="fa-solid fa-bullhorn fa-2xl" style="color: #0084fd;"></i>
-                    </div>
-                    <div class="text text-center">
-                        <h3>Branding</h3>
-                            
-                        <p>Lorem ipsum dolor sit amet consectetur <br>
-                        adipisicing elit. Ratione nobis, architecto <br> ad
-                        dolore quod, facere totam quas <br> recusandae
-                        blanditiis.</p>
-                    </div>
-                </div>
-            </div>        
+            </div>
         </section>
         <!-- // SECTION DEMO // -->
 
-        <!-- SECTION PLANNING -->
-        <section id="container-section-2">
-            <div class="flex">
-                <div class="left-section-2">
-                    <img src="./assets/img/planning1.png" alt="">
+        <!-- SECTION PLANNING  -->
+        <section id="planning" class="mobile-padding purple-background">
+            <div class="container">
+                <div class="columns planning-columns">
+                    <div class="planning-col">
+                       <div class="card-planning-left">
+                            <img src="./assets/img/planning1.png" alt="planning1">
 
-                    <h3>Strategic Planning</h3>
+                            <h3>Strategic Planning</h3>
 
-                    <p>Egestas dui id omare arcu odio. In tellus integer feugiat
-                    scelerisque varius morbi enim nunc. Habitasse platea 
-                    dictumst quisque sagittis. Interdum velit eiusmod in
-                    pellentesque massa placerat duis. Quis viverra nibh cras
-                    pulvinar mattis.</p> 
-                    
-                    <div class="right-section-2">
-                    <img src="./assets/img/planning2.png" alt="">
-                    <div class="text text-center">
-                        <h4>App Developement</h4>
-                        <br>
-                        <em>Develop an on-demand app for your delivery
-                            business to reach your targeted customers
-                            without any interruption</em>
-                    
-                        <div class="arrow">
-                            <i class="fa-solid fa-arrow-down" style="color: #000000;"></i>
-                        </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit veniam porro dolore et? Illum vitae tempora possimus debitis dolore modi iure similique vel voluptate quae velit ipsum, reiciendis, nihil voluptates!
+                            </p>
+                       </div>
                     </div>
+                   
+                    <div class="planning-col flex-end-col">
+                       <div class="card-planning-right">
+                           <img src="./assets/img/planning2.png" alt="planning 2">
+
+                           <h3>App Developement</h3>
+
+                           <p><em>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</em></p>
+                           <div class="purple-circle">
+                                <span class="flex-purple">
+                                    <i class="fa-solid fa-arrow-down"></i>
+                                </span>
+                           </div>
+                       </div>
+                    </div>
+                  
                 </div>
-            </div>     
+            </div>  
         </section>
-        
+                    
         <!-- // SECTION PLANNING // -->
 
-        <!-- SECTION TESTIMONIALS -->
+        <!-- SECTION TESTIMONIALS  -->
+        <section id="partners" class="mobile-padding">
+            <div class="container">
+                <div class="text-partners">
+                    <div>TESTIMONIALS</div>
 
-        <section id="container-section-3">
-            <div class="text-center text-1">
-                <h5>TESTIMONIALS</h5>
-                <h1>We are committed expert partners</h1>
-                <p>We place huge value on strong relationships and have seen
-                    the benefit they bring to our business. Customer feedback is vital
-                    in helping us to get it right.
-                </p>
-            </div>
+                    <h2>We are committed expert partners</h2>
 
-            <div class="testimonials">
-                <img src="./assets/img/testimonial1.jpg" alt="">
-                    <div class="quote">
-                        <p><i class="fa-solid fa-quote-left" style="color: #ffffff;"></i>
-                        Vitae suscipit tellus marius a diam maecenas sed enim ut. Mauris augue neque gravida in
-                        fermentum. Praesent semper feugi nibh pulvinar proin. 
-                        <i class="fa-solid fa-quote-right" style="color: #ffffff;"></i></p>
-                    </div>
-                    <span class="name">NAT REYNOLDS</span>
+                    <div>We place huge value on strong relashionships and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right.</div>
                 </div>
-            </div>
 
-            <div class="testimonials">
-                <img src="./assets/img/testimonial2.jpg" alt="">
-                    <div class="quote">
-                        <p><i class="fa-solid fa-quote-left" style="color: #ffffff;"></i>
-                        Pharetra vel turpis nunc eget lorem. Quisque id diam vel quam elementum pulvinar etiam.
-                        Urna porttitor rhoncus dolor purus non enim praesent elementum.
-                        <i class="fa-solid fa-quote-right" style="color: #ffffff;"></i></p>
+                <div class="row-partner purple-background">
+                    <div class="col-picture">
+                        <div class="square-img-box">
+                            <img src="./assets/img/testimonial1.jpg" alt="testimonial1">
+                        </div>
                     </div>
-                    <span class="name">CELIA ALMEDA</span>
+
+                    <div class="name-col">
+                        <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet dicta ratione, hic possimus suscipit illum eos culpa. <i class="fa-solid fa-quote-right"></i></p>
+
+                        <div class="testimonial"><strong>NAT REYNOLDS</strong></div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="testimonials">
-                <img src="./assets/img/testimonial3.jpg" alt="">
-                    <div class="quote">
-                        <p><i class="fa-solid fa-quote-left" style="color: #ffffff;"></i>
-                        Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin.
-                        Nibh nisl condimentum id venentis a condimentum. <i class="fa-solid fa-quote-right" style="color: #ffffff;"></i>
-                    </p>
+                <div class="row-partner purple-background">
+                    <div class="col-picture">
+                        <div class="square-img-box">
+                            <img src="./assets/img/testimonial2.jpg" alt="testimonial2">
+                        </div>
                     </div>
-                    <span class="name">BOB ROBERTS</span>
+
+                    <div class="name-col">
+                        <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet dicta ratione, hic possimus suscipit illum eos culpa. <i class="fa-solid fa-quote-right"></i></p>
+
+                        <div class="testimonial"><strong>CELIA ALMEDA</strong></div>
+                    </div>
+                </div>
+
+                <div class="row-partner purple-background">
+                    <div class="col-picture">
+                        <div class="square-img-box">
+                            <img src="./assets/img/testimonial3.jpg" alt="testimonial3">
+                        </div>
+                    </div>
+
+                    <div class="name-col">
+                        <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet dicta ratione, hic possimus suscipit illum eos culpa. <i class="fa-solid fa-quote-right"></i></p>
+
+                        <div class="testimonial"><strong>BOB ROBERTS</strong></div>
+                    </div>
                 </div>
             </div>
         </section>
-
         <!-- // SECTION TESTIMONIALS // -->
 
         <!-- SECTION BENEFIT -->
+        <section id="benefits" class="mobile-padding purple-background">
+            <div class="container">
+                <h2>Benefits of working with us</h2>
+
+                <div class="columns margin-columns">
+                    <div class="benefits-col padding-col">
+                        <div class="card-benefits">
+                            <div>01</div>
+
+                            <h3>Hight Quality</h3>
+
+                            <p>Inventore veritatis quia cumque odio totam porro pariatur doloribus dicta! Veniam perferendis iusto quisquam assumenda labore fuga repudiandae maxime.</p>
+
+                            <div class="more-button button button-pad-8-45">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
+                    </div>
         
-        <section id="container-section-4">
-            <div class="text-2">
-                <h1>Benefits of working with us</h1>
-            </div>
-            
-            <div class="flex"> 
-                <div class="card-section-4">
-                    <div class="text-3">
-                        <h1>01</h1>
-                        <h2>Hight Quality</h2>
+                    <div class="benefits-col padding-col">
+                        <div class="card-benefits">
+                            <div>02</div>
 
-                        <p>Vitae suscipit tellus mauris a diam
-                            maecenas sed enim ut. Mauris auguen
-                            neque gravida in fermentum. Praesent
-                            semper feugiat nibh sed pulvinar proin id
-                            venenatis.
-                        </p>
+                            <h3>Creative Team</h3>
+
+                            <p>Inventore veritatis quia cumque odio totam porro pariatur doloribus dicta! Veniam perferendis iusto quisquam assumenda labore fuga repudiandae maxime.</p>
+
+                            <div class="more-button button button-pad-8-45">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
                     </div>
-                    <span class="btn-more">more</span>
-                </div>
-                
-                <div class="card-section-4">
-                    <div class="text-3">
-                        <h1>02</h1>
-                        <h2>Creative Team</h2>
+   
+                    <div class="benefits-col padding-col">
+                        <div class="card-benefits">
+                            <div>03</div>
 
-                        <p>Vitae suscipit tellus mauris a diam
-                            maecenas sed enim ut. Mauris auguen
-                            neque gravida in fermentum. Praesent
-                            semper feugiat nibh sed pulvinar proin id
-                            venenatis.
-                        </p>
+                            <h3>Amazing Results</h3>
+
+                            <p>Inventore veritatis quia cumque odio totam porro pariatur doloribus dicta! Veniam perferendis iusto quisquam assumenda labore fuga repudiandae maxime.</p>
+
+                            <div class="more-button button button-pad-8-45">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
                     </div>
-                    <span class="btn-more">more</span>
-                </div>
+              
+                    <div class="benefits-col padding-col">
+                        <div class="card-benefits">
+                            <div>04</div>
 
-                <div class="card-section-4">
-                    <div class="text-3">
-                        <h1>03</h1>
-                        <h2>Amazing Results</h2>
+                            <h3>Best Prizing</h3>
 
-                        <p>Vitae suscipit tellus mauris a diam
-                            maecenas sed enim ut. Mauris auguen
-                            neque gravida in fermentum. Praesent
-                            semper feugiat nibh sed pulvinar proin id
-                            venenatis.
-                        </p>
+                            <p>Inventore veritatis quia cumque odio totam porro pariatur doloribus dicta! Veniam perferendis iusto quisquam assumenda labore fuga repudiandae maxime.</p>
+
+                            <div class="more-button button button-pad-8-45">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
                     </div>
-                    <span class="btn-more">more</span>
-                </div>
-            </div>
+      
+                    <div class="benefits-col padding-col">
+                        <div class="card-benefits">
+                            <div>05</div>
 
-            <div class="flex"> 
-                <div class="card-section-4">
-                    <div class="text-3">
-                        <h1>04</h1>
-                        <h2>Best Pricing</h2>
+                            <h3>Innovations</h3>
 
-                        <p>Vitae suscipit tellus mauris a diam
-                            maecenas sed enim ut. Mauris auguen
-                            neque gravida in fermentum. Praesent
-                            semper feugiat nibh sed pulvinar proin id
-                            venenatis.
-                        </p>
+                            <p>Inventore veritatis quia cumque odio totam porro pariatur doloribus dicta! Veniam perferendis iusto quisquam assumenda labore fuga repudiandae maxime.</p>
+
+                            <div class="more-button button button-pad-8-45">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
                     </div>
-                    <span class="btn-more">more</span>
-                </div>
-                
-                <div class="card-section-4">
-                    <div class="text-3">
-                        <h1>05</h1>
-                        <h2>Innovations</h2>
 
-                        <p>Vitae suscipit tellus mauris a diam
-                            maecenas sed enim ut. Mauris auguen
-                            neque gravida in fermentum. Praesent
-                            semper feugiat nibh sed pulvinar proin id
-                            venenatis.
-                        </p>
+                    <div class="benefits-col padding-col">
+                        <div class="card-benefits">
+                            <div>06</div>
+
+                            <h3>24/7 Support</h3>
+
+                            <p>Inventore veritatis quia cumque odio totam porro pariatur doloribus dicta! Veniam perferendis iusto quisquam assumenda labore fuga repudiandae maxime.</p>
+
+                            <div class="more-button button button-pad-8-45">
+                                <a href="#">more</a>
+                            </div>
+                        </div>
                     </div>
-                    <span class="btn-more">more</span>
-                </div>
-
-                <div class="card-section-4">
-                    <div class="text-3">
-                        <h1>06</h1>
-                        <h2>24/7 Support</h2>
-
-                        <p>Vitae suscipit tellus mauris a diam
-                            maecenas sed enim ut. Mauris auguen
-                            neque gravida in fermentum. Praesent
-                            semper feugiat nibh sed pulvinar proin id
-                            venenatis.
-                        </p>
-                    </div>
-                    <span class="btn-more">more</span>
                 </div>
             </div>
         </section>
-
         <!-- // SECTION BENEFIT // -->
 
-        <section id="container-section-5">
-                <div class="flex">
-                    <div class="left-section-5">
-                        <h1>About US</h1>
-    
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia quod labore vero exercitationem facilis nam quo cum commodi quidem, veniam eaque ea fugit ducimus ipsum fuga impedit sapiente aspernatur earum.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In voluptate autem exercitationem quia numquam perspiciatis facere unde quis repellat esse. Voluptate laborum id minima amet atque voluptatum, at omnis corrupti?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, exercitationem, tenetur, deserunt aut veritatis similique vero et dolorum vel eius nulla mollitia ad nostrum commodi perferendis! Est dolorum hic reiciendis.
-                        </p> <br>
+        <!-- SECTION ABOUT US -->
+        <section id="about-us" class="mobile-padding">
+            <div class="container">
+                <div class="about-us-columns columns">
+                    <div class="left-col">
+                        <div class="card-about-us">
+                            <h2>About Us</h2>
 
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia quod labore vero exercitationem facilis nam quo cum commodi quidem, veniam eaque ea fugit ducimus ipsum fuga impedit sapiente aspernatur earum.
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In voluptate autem exercitationem quia numquam perspiciatis facere unde quis repellat esse. Voluptate laborum id minima amet atque voluptatum, at omnis corrupti?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, exercitationem, tenetur, deserunt aut veritatis similique vero et dolorum vel eius nulla mollitia ad nostrum commodi perferendis! Est dolorum hic reiciendis.
-                        </p> 
-                    </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur quos quae necessitatibus pariatur asperiores perspiciatis mollitia quas corporis aut tempore totam nobis veritatis, doloribus quam quisquam! Eligendi similique quae consequuntur.
+                            Sit similique iusto dolorem dicta consequuntur! Quae optio totam amet sapiente. Ducimus, in dolores ab doloribus iure molestias corporis sequi ad minus a, sint animi non quam voluptates? Vel, iste?</p>
                         
-                        <div class="right-section-5">
-                            <img src="./assets/img/about.jpg" alt="">  <i class="fa-solid fa-quote-left fa-2xl" style="color: #9792e4;"></i>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur quos quae necessitatibus pariatur asperiores perspiciatis mollitia quas corporis aut tempore totam nobis veritatis, doloribus quam quisquam! Eligendi similique quae consequuntur.</p>
+                       </div>
+                    </div>
 
-                            <h3>I help compaines <br> tincidunt tortor <br>
-                                aliquam nulla facilisi cras <br>
-                                fermentum odio. 
-                            </h3>
+                    <div class="right-col">
+                        <div class="card-about-us">
+                            <div class="square-quote">
+                                <div class="square-img-aboutus">
+                                    <img class="flex-img" src="./assets/img/about.jpg" alt="about-person">
+                                </div>
+        
+                                <div class="quote-left"><i class="fa-solid fa-quote-left"></i></div>
+                            </div>
 
-                            <span class="linkedin1"> <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i> Find me on Linkedin</span>
+                            <div class="help">I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio.</div>
+
+                            <div class="about-us-button button">
+                               <span> <a href="#"><i class="fa-brands fa-linkedin"></i></a></span>
+                               <span>Find me on linkedin</span>
+                            </div>
                         </div>
-                </div>    
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- // SECTION ABOUT US // -->
 
-        <section id="container-section-6">
-            <h4>GET STARTED</h4>
-            <h2>Simple, Trasparent Pricing</h2>
-            <h1>It's Free!</h1>
+        <!-- SECTION FREE  -->
+        <section class="mobile-padding purple-background">
+            <div class="container">
+                <div class="columns">
+                    <div class="center-col get-started-col">
+                        <div>GET STARTED</div>
+                        
+                        <h3>Simple, Transparent Pricing</h3>
 
-            <p>We're still in beta and we will be for awhile. As we add more <br>
-            functionality, we'll look into other plans with more controls.</p>
+                        <h2>It's Free!</h2>
 
-            <span class="get-started">Get Started</span>
+                        <div>We're still in beta and we will be for a while. As we add more funcionality, we'll look into other plans with more controls.</div>
 
-            <p>Copyright 2021 Boolean Classe X Privacy Policy </span>
+                        <div class="started-button button">
+                            <a href="#">Get Started</a>
+                        </div>
+
+                        <div class="privacy">
+                            <span>Copyright 2021 Boolean</span>
+                            <span>&bull;</span>
+                            <span>Classe XX</span>
+                            <span>&bull;</span>
+                            <span>
+                                <a href="#">Privacy policy</a>
+                            </span>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- // SECTION FREE // -->
     </main>
 
+    <!-- SECTION FOOTER  -->
     <footer>
-        <p>Lorem ipsum dolor sit, amet consectetur adipiscing elit. <br>
-        Commodi maiores minima vitae vero nulla pariatur impedit!</p>
+        <section class="mobile-padding">
+            <div class="container">
+                <div class="columns">
+                    <div class="center-col footer-col">
+                        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi maiores minima vitae vero nulla pariatur impedit!</div>
 
-        <span>Lorem ipsum scelerisque mauris pellentesque Boolean careers</span>
-
+                        <div>
+                            <a href="#">Lorem ipsum</a> scelerisque mauris pellentesque <a href="#">Boolean careers</a>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
+    <!-- // SECTION FOOTER // -->
 </body>
 </html>
